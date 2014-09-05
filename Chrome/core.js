@@ -1,5 +1,5 @@
 /*
-*   Mixclod Harvester Downloader
+*   Mixcloud Harvester Downloader
 *   https://github.com/Bumxu/MixcloudHarvester
 *
 *   Copyright 2014 Juande Martos (http://www.bumxu.com/)

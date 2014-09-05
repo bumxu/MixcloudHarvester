@@ -32,7 +32,7 @@ With a download manager it can improve in some cases.
 #### Use of this code:
 You can use this code with total freedom in the terms of the Apache v2 license.
 
-> Mixclod Harvester Downloader
+> Mixcloud Harvester Downloader
 
 > Copyright 2014 Juande Martos (http://www.bumxu.com/)
 
