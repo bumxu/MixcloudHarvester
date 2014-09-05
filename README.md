@@ -1,11 +1,12 @@
-Mixcloud Harvester
-=================
+![Mixcloud Harvester](https://raw.githubusercontent.com/Bumxu/MixcloudHarvester/master/Branding/desplazamiento.png)
 
 ### Chrome Web Store removes Mixcloud Harvester:
 > **05/09/2014:**  
 Your Google Chrome item, "Mixcloud Harvester Downloader," with ID: afaibpbhjbconbdfokmbkgdgidflbola did not comply with our policies and was removed from the Google Chrome Web Store.
 
 #### Original text:
+> ![MH in action](https://raw.githubusercontent.com/Bumxu/MixcloudHarvester/master/Branding/MK%203.0/H1.png)
+
 > Mixcloud Harvester gives you direct access to the music available on mixcloud.com without leaving your navigation, only:  
 
 > **¡Use Mixcloud as normal!**
