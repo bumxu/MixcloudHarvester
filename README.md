@@ -29,7 +29,14 @@ With a download manager it can improve in some cases.
 
 * * *
 
-#### Use of this code:
+#### Using the extension:
+You can use this code as Chrome Extension adding the "Chrome" folder to your extensions in developer mode.
+
+![Adding extension](http://i.stack.imgur.com/CYW83.png)
+
+* * *
+
+#### Using the code:
 You can use this code with total freedom in the terms of the Apache v2 license.
 
 > Mixcloud Harvester Downloader
