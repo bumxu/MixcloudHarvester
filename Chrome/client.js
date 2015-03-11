@@ -2,7 +2,7 @@
 *   Mixcloud Harvester Downloader
 *   https://github.com/Bumxu/MixcloudHarvester
 *
-*   Copyright 2014 Juande Martos (http://www.bumxu.com/)
+*   Copyright 2015 Juande Martos (http://www.bumxu.com/)
 *   
 *   Licensed under the Apache License, Version 2.0 (the "License");
 *   you may not use this file except in compliance with the License.
@@ -62,7 +62,7 @@ var harvester3 = function()
 	$('.cloudcast-head:not([harv3pre="remoteOk"])').each(function() {  //> Only one...
 		var jqe = $(this);
 
-		var preview = jqe.find(".cloudcast-play-button-container").attr("m-preview");
+		var preview = jqe.find(".play-button-cloudcast-page").attr("m-preview");
 		var isLocal = ! /(^$|\/previews\/.mp3$)/.test(preview);
 
 		//> common
@@ -124,7 +124,7 @@ var harvester3 = function()
 	$('.card-elements-container:not([harv3pre="remoteOk"])').each(function() {
 		var jqe = $(this);
 
-		var preview = jqe.find(".card-play-button").attr("m-preview");
+		var preview = jqe.find(".play-button").attr("m-preview");
 		var isLocal = ! /(^$|\/previews\/.mp3$)/.test(preview);
 
 		//> common
@@ -162,7 +162,7 @@ var harvester3 = function()
 		}
 	});
 
-	$(".cloudcast-play-button-container").click(function() {
+	$(".play-button-cloudcast-page").click(function() {
 		var head = $(this).parent();
 		var attr = head.attr("harv3pre");
 
@@ -172,7 +172,7 @@ var harvester3 = function()
 			waitingPipe = head;
 	});
 
-	$(".card-play-button").click(function() {
+	$(".play-button").click(function() {
 		var card = $(this).parent().parent();
 		var attr = card.attr("harv3pre");
 

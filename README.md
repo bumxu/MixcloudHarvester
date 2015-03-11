@@ -3,9 +3,14 @@
 Mixcloud Harvester was an extension for Google Chrome browser that gave you direct access to Mixcloud music.
 
 * * *
-### Mixcloud Harvester is not working (open...):
+### Mixcloud Harvester fixes:
 > **11/03/2015:**  
-Users inform me that Mixcloud Harvester is no longer working.
+A great user inform me that Mixcloud Harvester is no longer working...
+The thing is not serious and I am about to go to sleep, so... update released:
+- Working again.
+- Corrupt styles fixed.
+- Fix in Non-Ajax detection (that also improved performance).
+:)
 
 ### Chrome Web Store removes Mixcloud Harvester:
 > **05/09/2014:**  

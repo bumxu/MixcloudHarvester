@@ -2,7 +2,7 @@
 *   Mixcloud Harvester Downloader
 *   https://github.com/Bumxu/MixcloudHarvester
 *
-*   Copyright 2014 Juande Martos (http://www.bumxu.com/)
+*   Copyright 2015 Juande Martos (http://www.bumxu.com/)
 *   
 *   Licensed under the Apache License, Version 2.0 (the "License");
 *   you may not use this file except in compliance with the License.
@@ -59,9 +59,10 @@ var injInCtx = function(id)
 // When a tab is updated check is Mixcloud, and in that case injected Harvester.
 chrome.tabs.onUpdated.addListener(function(tabId, info, tab) {
 
-	if ( info.url )
+	if ( info.status == 'complete' )
 	{
-		if ( /^https?:\/\/(www\.)?mixcloud\.com/.test(decodeURI(info.url)) )
+
+		if ( /^https?:\/\/(www\.)?mixcloud\.com/.test(decodeURI(tab.url)) )
 		{
 			new injInCtx(tabId);
 		}

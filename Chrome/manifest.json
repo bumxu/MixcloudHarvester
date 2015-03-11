@@ -2,7 +2,7 @@
 *   Mixcloud Harvester Downloader
 *   https://github.com/Bumxu/MixcloudHarvester
 *
-*   Copyright 2014 Juande Martos (http://www.bumxu.com/)
+*   Copyright 2015 Juande Martos (http://www.bumxu.com/)
 *   
 *   Licensed under the Apache License, Version 2.0 (the "License");
 *   you may not use this file except in compliance with the License.
@@ -19,7 +19,7 @@
 
 {
   "name": "Mixcloud Harvester Downloader",
-  "version": "3.2",
+  "version": "3.5",
   "description": "Direct and fast access to music from Mixcloud",
   "background": { "scripts": ["core.js"] },
   "permissions": [ "tabs", "webRequest", "http://*/*", "https://*/*" ],

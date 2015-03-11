@@ -2,7 +2,7 @@
 *   Mixcloud Harvester Downloader
 *   https://github.com/Bumxu/MixcloudHarvester
 *
-*   Copyright 2014 Juande Martos (http://www.bumxu.com/)
+*   Copyright 2015 Juande Martos (http://www.bumxu.com/)
 *   
 *   Licensed under the Apache License, Version 2.0 (the "License");
 *   you may not use this file except in compliance with the License.
@@ -135,12 +135,14 @@
 @media screen and (min-width: 1021px) {
    .list-view-wide-column .card-harv3 {
       position: absolute                     !important;
-      top: 102px                             !important;
+      bottom: 90px                           !important;
       border: 0                              !important;
-      left: 214px                            !important;
+      left: 240px                            !important;
+      margin: 0                              !important;
+      padding: 0                             !important;
    }
 
-   .list-view-wide-column span:nth-child(2)  {
+   .list-view-wide-column .card-harv3 span:nth-child(2)  {
       margin-right: 10px                     !important;
    }
 
