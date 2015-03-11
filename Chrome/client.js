@@ -136,7 +136,7 @@ var harvester3 = function()
 		{
 			gadget.html('<span style="padding: 0 7px 0 14px; background: url(' + chrome.extension.getURL("resources/x-v17.png") + ') -447px -1120px no-repeat"></span><span style="font-size: 11px; font-weight: 600; text-transform: uppercase">Download with Harvester:</span><br>');
 
-			$('<a href="' + getMP4(preview) + '" download="' + gadget.siblings(".card-cloudcast-title").text() + '.m4a">Compressed MP4 file</a>').appendTo(gadget).click(function() {
+			$('<a href="' + getMP4(preview) + '" download="' + gadget.siblings(".card-cloudcast-title").text() + '.m4a">Compr. MP4 file</a>').appendTo(gadget).click(function() {
 				$(this).parent().siblings(".card-cloudcast-image").children(".pause-state, .loading-state").click();
 			});
 
