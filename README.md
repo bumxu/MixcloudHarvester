@@ -5,11 +5,11 @@ Mixcloud Harvester was an extension for Google Chrome browser that gave you dire
 * * *
 ### Mixcloud Harvester fixes:
 > **11/03/2015:**  
-A great user inform me that Mixcloud Harvester is no longer working...
-The thing is not serious and I am about to go to sleep, so... update released:
+A great user inform me that Mixcloud Harvester is no longer working...  
+The thing is not serious and I am about to go to sleep, so... update released:  
 - Working again.
 - Corrupt styles fixed.
-- Fix in Non-Ajax detection (that also improved performance).
+- Fix in Non-Ajax detection (that also improved performance).  
 :)
 
 ### Chrome Web Store removes Mixcloud Harvester:
@@ -49,7 +49,7 @@ You can use this code with total freedom in the terms of the Apache v2 license.
 
 > Mixcloud Harvester Downloader
 
-> Copyright 2014 Juande Martos (http://www.bumxu.com/)
+> Copyright 2015 Juande Martos (http://www.bumxu.com/)
 
 > Licensed under the Apache License, Version 2.0 (the "License");  
 you may not use this file except in compliance with the License.  
