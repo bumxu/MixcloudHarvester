@@ -43,8 +43,35 @@
    background: #306885                    !important;
 }
 
+.card-harv3 a.loading {
+   color: rgba(0, 0, 180, 0.4)            !important;
+   cursor: not-allowed                    !important;
+   pointer-events: none;
+}
+
 .card-harv3 a.no, .card-harv3 a.no:hover {
    color: rgba(255, 255, 255, 0.4)        !important;
+}
+
+.card-harv3 progress {
+   appearance: none;
+   -moz-appearance: none;
+   -webkit-appearance: none;
+
+   margin-top: 5px;
+
+   background-color: #3f5c94;
+   color: #3f5c94;
+   border: 0;
+   height: 18px;
+   border-radius: 2px;
+   box-shadow: 0 1px 0 rgba(0,0,0,.1)     !important;
+   -webkit-transition: all 0.15 ease      !important;
+}
+
+.card-harv3 progress::-webkit-progress-value {
+   background-color: #3f5c94;
+   color: #3f5c94;
 }
 
 .card.fixed-height .card-footer {
@@ -118,6 +145,13 @@
       content: 'MP3 file'                 !important;
    }
 }
+
+.cloudcast-harv3 a.loading {
+   color: rgba(0, 0, 180, 0.4)            !important;
+   cursor: not-allowed                    !important;
+   pointer-events: none;
+}
+
 .cloudcast-harv3 a.no {
    color: rgba(180, 0, 0, 0.4)            !important;
    cursor: not-allowed                    !important;
@@ -125,6 +159,26 @@
 .cloudcast-harv3 a.no::after {
    content: 'MP3 not available'           !important;
 }
+
+.cloudcast-harv3 progress {
+   appearance: none;
+   -moz-appearance: none;
+   -webkit-appearance: none;
+
+   background-color: #3f5c94;
+   color: #3f5c94;
+   border: 0;
+   height: 18px;
+   border-radius: 2px;
+   box-shadow: 0 1px 0 rgba(0,0,0,.1)     !important;
+   -webkit-transition: all 0.15 ease      !important;
+}
+
+.cloudcast-harv3 progress::-webkit-progress-value {
+   background-color: #3f5c94;
+   color: #3f5c94;
+}
+
 @media screen and (max-width: 1020px) {
    .cloudcast-harv3 a.no::after {
       content: 'Not MP3 :('               !important;
